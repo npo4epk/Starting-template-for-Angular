@@ -1,0 +1,28 @@
+/* @IMPORT
+ ========================= */
+/* FONTS-FACE
+ 	@include font-face('FontAwesome', '../fonts/FontAwesome/fontawesome-webfont', normal, normal, eot woff2 woff ttf svg);
+ ========================= */
+/* PX in REM
+ 	@include rem(lh, 12, 16);
+	@include rem(fs, 12, 16);
+ ========================= */
+/* PSEUDO
+	@include pseudo(block, absolute, ' ');
+ ========================= */
+/* CLEARFIX
+	@include clearfix()
+ ========================= */
+/* PLEACEHOLDER
+	@include placeholder(red, normal, none)
+ ========================= */
+/* LIST-CLEAR
+	@include list-clear()
+ ========================= */
+/* FONTS
+ ========================= */
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot?") format("eot"), url("../fonts/FontAwesome/fontawesome-webfont.woff2") format("woff2"), url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url('../fonts/FontAwesome/fontawesome-webfont.svg#str-replace("FontAwesome", " ", "_")') format("svg"); }

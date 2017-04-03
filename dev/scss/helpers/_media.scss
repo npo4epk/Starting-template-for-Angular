@@ -1,0 +1,61 @@
+/* @IMPORT
+ ========================= */
+@import "../components/_variables";
+//@import "../components/_sprite"; //Подключаем если есть спрайты
+@import "mixins";
+
+
+/* DESKTOP FIRST METHOD
+ ========================= */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : $site) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : $desktop) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : $tablet) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : $phone-landscape) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : $phone) {
+	
+}
+
+
+/* MOBILE FIRST METHODD
+ ========================= */
+/* Custom, iPhone Retina */
+@media only screen and (min-width : $phone) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : $phone-landscape) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : $tablet) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : $desktop) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : $site) {
+	
+}

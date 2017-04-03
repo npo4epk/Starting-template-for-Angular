@@ -1,0 +1,105 @@
+/* @IMPORT
+ ========================= */
+@import "components/_variables";
+//@import "components/_sprite"; //Подключаем если есть спрайты
+@import "helpers/_mixins";
+
+
+/* DEFAULT
+ ========================= */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  //font-size: $font-size-overall; //_variables.scss
+}
+
+body {
+  //font-family: $font-family-overall; //_variables.scss
+  //@include rem(fs, 20, $font-size-overall-mixin); //_mixins.scss @include rem(fs, 12, 16)
+  //@include rem(lh, 20, $font-size-overall-mixin); //_mixins.scss @include rem(lh, 12, 16)
+  //color: $color-overall; //_variables.scss
+  //@include pseudo(); //_mixins.scss @include pseudo(block, absolute, ' ')
+  //@include clearfix(); //_mixins.scss @include clearfix()
+  //@include list-clear(); //_mixins.scss @include list-clear()
+  //@include placeholder(red, normal, none); //_mixins.scss @include placeholder(red, normal, none)
+}
+
+
+
+/* @IMPORT MEDIA
+ ========================= */
+@import "helpers/_media";
+
+
+
+
+
+/* ШПОРА ПО SCSS
+ ========================= */
+
+/* Мапы */
+/*$map: (
+        title: value
+);
+
+.message {
+  @each $title, $value in $map {
+    &--#{$title} {
+      background: $value;
+    }
+  }
+}*/
+
+/* Директива @extend */
+/*.error {
+  border: 1px #f00;
+}
+.error2 {
+  @extend .error;
+  border-width: 3px;
+}*/
+
+/* Селекторы расширения */
+/* %foo {
+     min-height: 1px;
+ }
+
+ .class {
+     @extend %foo;
+ }*/
+
+/* Директива @if */
+/*$type: monster;
+p {
+  @if $type == ocean {
+    color: blue;
+  } @else if $type == monster {
+    color: green;
+  } @else {
+    color: black;
+  }
+}*/
+
+/* Директива @for */
+/*$length : 3;
+@for $i from 1 through $length {
+  .item-#{$i} { width: 2em * $i; }
+}*/
+
+/* Директива @each */
+/*$animals: puma, sea-slug, egret, salamander;
+@each $animal in $animals {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}*/
+
+/* Директива @while */
+/*
+$i: 6;
+@while $i > 0 {
+  .item-#{$i} { width: 2em * $i; }
+  $i: $i - 2;
+}*/

@@ -1,0 +1,20 @@
+/* COLORS
+ ========================= */
+$color-overall: #333;
+
+/* FONTS
+ ========================= */
+$font-family-overall: 'FontAwesome', sans-serif; //fonts.scss
+
+/* SIZES
+ ========================= */
+$font-size-overall-mixin: 16;
+$font-size-overall: 16px;
+
+/* MEDIA SIZES
+ ========================= */
+$phone: 320px; //_media.scss
+$phone-landscape: 480px; //_media.scss
+$tablet: 768px; //_media.scss
+$desktop: 992px; //_media.scss
+$site: 1280px; //_media.scss
